@@ -1,0 +1,30 @@
+{
+  "name": "count-contributors",
+  "version": "1.0.0",
+  "description": "Measure repeat contributors release over release",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "history": "node index.js",
+    "regressions": "node index.regressions-only.js"
+  },
+  "author": "Emma Humphries",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.13.0",
+    "node-fetch": "^1.5.2",
+    "left-pad": "*"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emceeaich/count-contributors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emceeaich/count-contributors/issues"
+  },
+  "homepage": "https://github.com/emceeaich/count-contributors#readme",
+  "keywords": [
+    "bugzilla"
+  ]
+}
